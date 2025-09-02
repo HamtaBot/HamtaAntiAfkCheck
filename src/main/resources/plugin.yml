@@ -1,0 +1,29 @@
+name: HamtaAntiAfkCheck
+version: 1.20.1
+main: fr.hamta.antiafk.HamtaAntiAfkCheck
+api-version: 1.20
+author: Hamta
+
+commands:
+  giveafkchecker:
+    description: Donne l'item AntiAfk Checker
+    usage: /giveafkchecker
+    permission: hamtaafk.give
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+  hamtaafk:
+    description: Reload la configuration du plugin
+    usage: /hamtaafk reload
+    permission: hamtaafk.reload
+    permission-message: "§cVous n'avez pas la permission d'utiliser cette commande."
+
+permissions:
+  hamtaafk.give:
+    description: Permet de donner l'item AntiAfk Checker
+    default: op
+  hamtaafk.use:
+    description: Permet d'utiliser le papier pour vérifier les joueurs AFK
+    default: true
+  hamtaafk.reload:
+    description: Permet de recharger la configuration du plugin
+    default: op

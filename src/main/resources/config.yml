@@ -1,0 +1,14 @@
+paper:
+  item-type: "PAPER"   # Matériel de l'item (ex: PAPER, BOOK, FEATHER, STICK...)
+  name: "&#006EFF&lV&#0973FC&lo&#1279FA&lt&cChecker"
+  custom-model-data: 1234
+  target-distance: 5
+  lore:
+    - "&#FF0000&lPremière ligne"
+    - "&#00FF00&lDeuxième ligne"
+    - "&#FFAA00&lGradients &b&lLegacy"
+
+messages:
+  result: "&aLe joueur &e%player% &aa été AFK pendant &c%minutes% &aminutes."
+  no-result: "&cImpossible de récupérer les données AFK de &e%player%."
+  not-a-player: "&cVous devez viser un joueur !"
